@@ -72,6 +72,9 @@ while True:
         left_score += 1
         ball_x, ball_y = screen_width // 2, screen_height // 2
 
+      # Clear the screen
+    screen.fill((0, 0, 0))
+    
     # Draw the ball
     pygame.draw.circle(screen, (255, 255, 255), (ball_x, ball_y), 10)
 
