@@ -2,7 +2,7 @@ import pygame
 from sys import exit
 
 pygame.init()
-screen = pygame.display.set_mode((800, 600))
+screen = pygame.display.set_mode((750, 450))
 pygame.display.set_caption('Princess DJ')
 clock = pygame.time.Clock()
 
