@@ -6,8 +6,8 @@ screen = pygame.display.set_mode((800, 400))
 pygame.display.set_caption('Test Game')
 clock = pygame.time.Clock()
 
-sky_surface = pygame.image.load('Game_Start/Art/Backgrounds/sky.png')
-ground = pygame.image.load('Game_Start/Art/Backgrounds/ground.png')
+sky_surface = pygame.image.load('Game_Start\Art\Backgrounds\sky.png')
+ground = pygame.image.load('Game_Start\Art\Backgrounds\ground.png')
 
 while True:
     for event in pygame.event.get():
