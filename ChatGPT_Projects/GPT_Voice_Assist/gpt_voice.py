@@ -1,3 +1,5 @@
+# Followed with: https://www.youtube.com/watch?v=8z8Cobsvc9k&t=438s
+
 import openai
 import pyttsx3
 import speech_recognition as sr
