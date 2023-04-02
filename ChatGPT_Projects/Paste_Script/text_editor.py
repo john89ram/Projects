@@ -1,3 +1,9 @@
+#HTML editing
+import re
+
+html = "input_file.txt"
+clean_html = re.sub('<[^<]+?>', '', html)
+
 # Open the input file for reading
 with open('input_file.txt', 'r') as input_file:
     # Read the contents of the file
