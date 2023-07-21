@@ -10,4 +10,4 @@ def login():
     CODE = lines[3]
 
     totp = pyotp.TOTP(KEY).now()
-    login = robin.login(EMAIL, PASSWD, mfa_code=CODE)
+    login = robin.login(EMAIL, PASSWD, mfa_code=totp)
