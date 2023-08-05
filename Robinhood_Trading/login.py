@@ -2,7 +2,7 @@ import robin_stocks.robinhood as robin
 import pyotp
 
 def login():
-    lines = open("E:/Robinhood_Trading/account.txt").read().splitlines()
+    lines = open("G:/Robinhood_Trading/account.txt").read().splitlines()
 
     KEY = lines[0]
     EMAIL = lines[1]
