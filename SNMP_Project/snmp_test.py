@@ -1,3 +1,4 @@
+import sys
 from pysnmp.hlapi import *
 
 def walk(host, oid, user, authkey, privkey):
